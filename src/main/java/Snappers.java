@@ -6,4 +6,6 @@ public class Snappers {
 
 	public static native byte[] compress(byte[] input);
 
+	public static native byte[] decompress(byte[] input);
+
 }

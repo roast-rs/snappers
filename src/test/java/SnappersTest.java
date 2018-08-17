@@ -15,6 +15,9 @@ public class SnappersTest {
         byte[] expected = Snappy.compress(input);
         byte[] actual = Snappers.compress(input);
         assertArrayEquals(expected, actual);
+
+        byte[] decoded = Snappers.decompress(expected);
+        assertArrayEquals(decoded, input);
     }
 
 }
