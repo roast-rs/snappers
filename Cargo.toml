@@ -1,0 +1,15 @@
+[package]
+name = "snappers"
+version = "0.1.0"
+authors = ["Michael Nitschinger <michael@nitschinger.at>"]
+build = "build.rs"
+
+[dependencies]
+roast = { path = "/home/daschl/code/roast/roast/roast" }
+snap = "0.2"
+
+[build-dependencies]
+roast = { path = "/home/daschl/code/roast/roast/roast" }
+
+[lib]
+crate_type = ["cdylib"]
