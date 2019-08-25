@@ -3,13 +3,14 @@ name = "snappers"
 version = "0.1.0"
 authors = ["Michael Nitschinger <michael@nitschinger.at>"]
 build = "build.rs"
+edition = "2018"
 
 [dependencies]
-roast = { path = "/home/daschl/code/roast/roast/roast" }
+roast = { git = "https://github.com/roast-rs/roast" }
 snap = "0.2"
 
 [build-dependencies]
-roast = { path = "/home/daschl/code/roast/roast/roast" }
+roast = { git = "https://github.com/roast-rs/roast" }
 
 [lib]
 crate_type = ["cdylib"]
