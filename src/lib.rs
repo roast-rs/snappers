@@ -2,7 +2,7 @@
 extern crate roast;
 extern crate snap;
 
-use snap::{Decoder, Encoder};
+use snap::raw::{Decoder, Encoder};
 
 #[derive(Debug, RoastExport)]
 struct Snappers {}

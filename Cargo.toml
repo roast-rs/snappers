@@ -7,7 +7,7 @@ edition = "2018"
 
 [dependencies]
 roast = { git = "https://github.com/roast-rs/roast" }
-snap = "0.2"
+snap = "1.0"
 
 [build-dependencies]
 roast = { git = "https://github.com/roast-rs/roast" }
